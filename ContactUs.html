@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Contact Us</title>
+</head>
+<body>
+<h1>Contact Itucation</h1>
+
+<p> Itucation Ltd.</p>
+
+<p>123 South Street<br>
+   Somewhere <br>
+   Over There<br>
+   USA </p>
+
+<p> <a href="mailto:contact@itucation.com"> contact@itucation.com </a> </p>
+
+<p> If you would like to contact Itucation, whether you're interested in our services or
+ in a conference we're currently organizing, don't hesitate to contact us using
+ our enquiry form (<b> Bold fields </b> are required) </p>
+
+<form>
+  <fieldset>
+    <legend>Your Details and Enquiry</legend>
+    <ol>
+        <li>Name: <br><input type="text" size="25"><br></li>
+        <li>Telephone: <br><input type="text" size="25"><br></li>
+        <li>Email Adress: <br><input type="text" size="25"></li>
+        <li>Message: <br>
+            <textarea rows="8" cols="30">Add your message here </textarea></li>
+    </ol>
+  </fieldset>
+</form> 
+<button onclick="Send()">Send</button>
+
+<script>
+function Send() {
+    alert("Information cannot be send! Sorry !");
+}
+</script>
+</body>
+</html>
