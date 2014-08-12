@@ -8,35 +8,61 @@
 </head>
 
 <body>
-<h1>Contact Itucation</h1>
+    <article>
+        <header>
+            <img src="images/Itucation.png" alt="Company logo" />
+            <h1>Contact Itucation</h1> 
+        </header>
+        
+        <section>
+            <p> Itucation Ltd.</p>
 
-<p> Itucation Ltd.</p>
+            <p>
+                123 South Street<br>
+                Somewhere <br>
+                Over There<br>
+                <em>USA</em>
+            </p>
 
-<p>123 South Street<br>
-   Somewhere <br>
-   Over There<br>
-   USA </p>
+            <p> <a href="mailto:contact@itucation.com"> 
+                contact@itucation.com </a> </p>
+        </section>
+        <section>
+        <p>
+            If you would like to contact Itucation, whether you're interested in our services or
+            in a conference we're currently organizing, don't hesitate to contact us using
+            our enquiry form (<b> Bold fields </b> are required)
+        </p>
 
-<p> <a href="mailto:contact@itucation.com"> contact@itucation.com </a> </p>
+        <form method="post" action="support.aspx">
+            <fieldset>
+                <legend>Your Details and Enquiry</legend>
+                <ol>
+                    <li><strong> Full Name:  </strong> <br><input type="text" name="Name" size="25"><br></li>
+                    <li>Telephone number: <br><input type="text" name="telephone" size="25"><br></li>
+                    <li>Email Adress: <br><input type="text" name="Email" size="25"></li>
+                    <li>
+                        Message: <br>
+                        <textarea rows="8" cols="30">Add your message here </textarea>
+                    </li>
+                </ol>
+            </fieldset>
+        </form>
+        </section>    
 
-<p> If you would like to contact Itucation, whether you're interested in our services or
- in a conference we're currently organizing, don't hesitate to contact us using 
- our enquiry form (<b> Bold fields </b> are required) </p>
-
-<form>
-  <fieldset>
-    <legend>Your Details and Enquiry</legend>
-	<ol>
-		<li><strong> Full Name:  </strong> <br><input type="text" name="Name" size="25"><br></li>
-		<li>Telephone number: <br><input type="text" name="telephone"size="25"><br></li>
-		<li>Email Adress: <br><input type="text" name="Email" size="25"></li>
-		<li>Message: <br> 
-			<textarea rows="8" cols="30">Add your message here </textarea></li>
-    </ol>
-  </fieldset>
-</form>  
-<script src="ContactUs.js"> </script>
-<!--<button onclick="Send()">Send</button>-->
-<!--<script src="ContactUs.js"></script>-->
+        <script src="ContactUs.js"> </script>
+        <!--<button onclick="Send()">Send</button>-->
+        <!--<script src="ContactUs.js"></script>-->
+    </article>
+    <footer>
+        <p>
+            <small>
+                Last updated
+                <time datetime="2013-08">
+                    August 2013
+                </time>
+            </small>
+        </p>
+    </footer>
 </body>
 </html>
