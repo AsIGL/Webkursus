@@ -1,9 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<title>Contact Us</title>
+    <meta charset="UTF-8" />
+    <title>Contact Us</title>
+	<link href="styles/ContactUsStyles.css" rel="stylesheet" type="text/css" />    
 </head>
+
 <body>
 <h1>Contact Itucation</h1>
 
@@ -17,27 +20,23 @@
 <p> <a href="mailto:contact@itucation.com"> contact@itucation.com </a> </p>
 
 <p> If you would like to contact Itucation, whether you're interested in our services or
- in a conference we're currently organizing, don't hesitate to contact us using
+ in a conference we're currently organizing, don't hesitate to contact us using 
  our enquiry form (<b> Bold fields </b> are required) </p>
 
 <form>
   <fieldset>
     <legend>Your Details and Enquiry</legend>
-    <ol>
-        <li>Name: <br><input type="text" size="25"><br></li>
-        <li>Telephone: <br><input type="text" size="25"><br></li>
-        <li>Email Adress: <br><input type="text" size="25"></li>
-        <li>Message: <br>
-            <textarea rows="8" cols="30">Add your message here </textarea></li>
+	<ol>
+		<li><strong> Full Name:  </strong> <br><input type="text" name="Name" size="25"><br></li>
+		<li>Telephone number: <br><input type="text" name="telephone"size="25"><br></li>
+		<li>Email Adress: <br><input type="text" name="Email" size="25"></li>
+		<li>Message: <br> 
+			<textarea rows="8" cols="30">Add your message here </textarea></li>
     </ol>
   </fieldset>
-</form> 
-<button onclick="Send()">Send</button>
-
-<script>
-function Send() {
-    alert("Information cannot be send! Sorry !");
-}
-</script>
+</form>  
+<script src="ContactUs.js"> </script>
+<!--<button onclick="Send()">Send</button>-->
+<!--<script src="ContactUs.js"></script>-->
 </body>
 </html>
