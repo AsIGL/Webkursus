@@ -21,6 +21,10 @@ section
     border-bottom-color: grey;
 }
 fieldset {
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align:right;
     background-color: pink;
     margin-bottom: 10px;
 }
@@ -37,3 +41,12 @@ input[type="submit"] {
     opacity: 0.6;
     width: 200px;
 }
+legend{
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
